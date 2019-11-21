@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Example of checkbox"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp" />
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Android"
+        android:layout_above="@+id/button"
+        android:layout_centerHorizontal="true" />
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IOS "
+        android:checked="false"
+        android:layout_above="@+id/checkBox1"
+        android:layout_alignLeft="@+id/checkBox1"
+
+        android:layout_alignStart="@+id/checkBox1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView1"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignEnd="@+id/textView1"
+        android:layout_alignRight="@+id/textView1"
+        android:layout_marginLeft="98dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="3SC4"
+        android:textAlignment="center"
+        android:textColor="#ff87ff09"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/checkBox1"
+        android:layout_alignLeft="@+id/checkBox1"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-36dp"
+        android:layout_marginLeft="-36dp"
+        android:layout_marginBottom="-2dp"
+        android:text="submit" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-144dp"
+        android:layout_marginRight="-144dp"
+        android:layout_marginBottom="-1dp"
+        android:text="Cancel" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="195dp"
+        android:layout_height="386dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/logoo" />
+</RelativeLayout>
