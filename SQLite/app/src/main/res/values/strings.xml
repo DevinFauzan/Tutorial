@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SQLite</string>
+    <string name="enter_nama">Nama</string>
+    <string name="enter_kelas">Kelas</string>
+    <string name="add_record">Tambah</string>
+    <string name="empty_list_text">empty list text</string>
+    <string name="btn_update">update</string>
+    <string name="btn_delete">delete</string>
+</resources>
